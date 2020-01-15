@@ -23,7 +23,7 @@ function setValue(number){
         display.innerHTML += number;
     }
     if (num1.length > 8 || num2.length > 8){
-        display.innerHTML = "i think that's enough kid.";
+        display.innerHTML = "*i think that's enough kid.";
     }
     if(num1.length === 8 && num1 === "66666666"){
         document.getElementById("containerStyle").innerHTML = 'body{ background: url(sansdefault.gif) no-repeat left}';
@@ -32,7 +32,11 @@ function setValue(number){
         document.getElementById("containerStyle").innerHTML = 'body{ background: url(sansdance.gif) no-repeat left}';
     }
     if(num1.length === 8 && num1 === "43662433"){
-        document.getElementById("containerStyle").innerHTML = 'body{ background: url(chara.png) no-repeat left;background-color: red; background-position: 10% 70% }';
+        document.getElementById("containerStyle").innerHTML = 'body{ background: url(chara.png) no-repeat left;background-color: red;color: red;background-position: 10% 70% }';
+        display.innerHTML = ":)"
+    }
+    if(num1.length === 8 && num1 === "99999999"){
+        document.getElementById("containerStyle").innerHTML = 'body{ background: url(papyrus.gif) no-repeat right}';
     }
 }
 
@@ -102,10 +106,10 @@ function equalClick(){
     roundedResult = result.toFixed(4);
     display.innerHTML = roundedResult;
     if(roundedResult === "Infinity"){
-        display.innerHTML = "dividing by 0 on a calculator?"
+        display.innerHTML = "*dividing by 0 on a calculator?"
     }
     else if(roundedResult === "NaN"){
-        display.innerHTML = "welp, something went wrong.";
+        display.innerHTML = "*welp, something went wrong.";
     }
 }
 

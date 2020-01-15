@@ -1,11 +1,18 @@
 
 /*Body Styles*/
 
+@font-face{
+    font-family: sans;
+    src:url(sans-undertale.ttf) format('truetype'),
+    url(sans-undertale.woff2) format('woff2'),
+    url(sans-undertale.woff) format('woff');
+}
+
 body{
     background: black;
     background-color: black;
     font-size: 22px;
-    font-family: Comic Sans MS;
+    font-family: sans;
     background: url(sansstill.gif) no-repeat left;
     background-size: 15%;
     background-position: 10% 50%;
@@ -59,6 +66,7 @@ h1{
     font-size: 30px;
     font-family: Comic Sans MS;
     color: black;
+    font-family: sans;
 }
 
 .clear, .delete{
@@ -84,6 +92,7 @@ button{
     border: none;
     font-size: 30px;
     font-family: Comic Sans MS;
+    font-family: sans;
 }
 
 button:hover{
@@ -98,8 +107,8 @@ button:hover{
     background-color: grey
 }
 
-body:active{
-    background: url(sansshrug.gif) no-repeat left;
-    background-size: 19%;
-    background-position: 8% 50%;
+.header:active{
+    background: url(sansmad.gif) no-repeat right;
+    background-size: 15%;
+    background-position: 75% 10%;
 }
