@@ -1,0 +1,105 @@
+
+/*Body Styles*/
+
+body{
+    background: black;
+    background-color: black;
+    font-size: 22px;
+    font-family: Comic Sans MS;
+    background: url(sansstill.gif) no-repeat left;
+    background-size: 15%;
+    background-position: 10% 50%;
+}
+
+html{
+    height: 100%;
+    background: black;
+}
+
+/*Header Styles*/
+
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 0px 5px;
+    border: 5px solid white;
+    background: url(sans.png) no-repeat right;
+    background-size: 15%;
+    background-position: 75% 10%;
+}
+
+h1{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+/*Calculator Container*/
+
+#calculator{
+    width: 420px;
+    height: auto;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    padding-top: 30px;
+    border: white 5px solid;
+    color: white;
+}
+
+/*Display Clear and Delete Styles*/
+
+#display{
+    background-color: white;
+    height: 60px;
+    border: black solid 2px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color: black;
+}
+
+.clear, .delete{
+    height: 50px;
+    border-radius: 0px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+
+#clearDelete{
+    width: 100%;
+}
+
+/*Number Rows*/
+
+button{
+    margin: 10px;
+    border-radius: 38px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+}
+
+button:hover{
+    filter: brightness(50%);
+}
+
+.operator:hover{
+    filter: brightness(50%);
+}
+
+#equal{
+    background-color: grey
+}
+
+body:active{
+    background: url(sansshrug.gif) no-repeat left;
+    background-size: 19%;
+    background-position: 8% 50%;
+}
