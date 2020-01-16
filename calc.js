@@ -36,7 +36,7 @@ function setValue(number){
         display.innerHTML = ":)"
     }
     if(num1.length === 8 && num1 === "99999999"){
-        document.getElementById("containerStyle").innerHTML = 'body{ background: url(papyrus.gif) no-repeat right}';
+        document.getElementById("containerStyle").innerHTML = 'body{ background: url(papyrus.gif) no-repeat right;}';
     }
 }
 
@@ -177,3 +177,6 @@ function opSetString(op){
     }
 }
 
+function audio(){
+    document.getElementById("music").setAttribute("src","megalovania.mp3")
+}
